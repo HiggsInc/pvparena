@@ -1,6 +1,6 @@
 <?php
 
-namespace Minifixio\onevsone\command;
+namespace HiggsInc\onevsone\command;
 
 use pocketmine\command\Command;
 use pocketmine\command\PluginIdentifiableCommand;
@@ -11,12 +11,12 @@ use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 
 
-use Minifixio\onevsone\OneVsOne;
-use Minifixio\onevsone\ArenaManager;
+use HiggsInc\onevsone\OneVsOne;
+use HiggsInc\onevsone\ArenaManager;
 
 /**
  * Command to reference a new Arena in the pool 
- * @author Minifixio
+ * @author HiggsInc
  */
 class ReferenceArenaCommand extends Command {
 

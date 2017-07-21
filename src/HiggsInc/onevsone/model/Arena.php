@@ -1,9 +1,9 @@
 <?php
 
-namespace Minifixio\onevsone\model;
+namespace HiggsInc\onevsone\model;
 
-use Minifixio\onevsone\OneVsOne;
-use Minifixio\onevsone\utils\PluginUtils;
+use HiggsInc\onevsone\OneVsOne;
+use HiggsInc\onevsone\utils\PluginUtils;
 
 use pocketmine\Player;
 use pocketmine\Server;
@@ -18,7 +18,7 @@ use pocketmine\block\Block;
 use pocketmine\level\particle\DestroyBlockParticle;
 
 use \DateTime;
-use Minifixio\onevsone\ArenaManager;
+use HiggsInc\onevsone\ArenaManager;
 
 class Arena{
 

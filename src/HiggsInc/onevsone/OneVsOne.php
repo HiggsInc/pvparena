@@ -1,14 +1,14 @@
 <?php
 
-namespace Minifixio\onevsone;
+namespace HiggsInc\onevsone;
 
 use pocketmine\plugin\PluginBase;
 
-use Minifixio\onevsone\ArenaManager;
-use Minifixio\onevsone\EventsManager;
-use Minifixio\onevsone\utils\PluginUtils;
-use Minifixio\onevsone\command\JoinCommand;
-use Minifixio\onevsone\command\ReferenceArenaCommand;
+use HiggsInc\onevsone\ArenaManager;
+use HiggsInc\onevsone\EventsManager;
+use HiggsInc\onevsone\utils\PluginUtils;
+use HiggsInc\onevsone\command\JoinCommand;
+use HiggsInc\onevsone\command\ReferenceArenaCommand;
 use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat;
 use pocketmine\Server;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Minifixio\onevsone\utils;
+namespace HiggsInc\onevsone\utils;
 
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;

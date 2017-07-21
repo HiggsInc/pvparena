@@ -1,6 +1,6 @@
 <?php
 
-namespace Minifixio\onevsone\command;
+namespace HiggsInc\onevsone\command;
 
 use pocketmine\command\Command;
 use pocketmine\command\PluginIdentifiableCommand;
@@ -11,8 +11,8 @@ use pocketmine\plugin\Plugin;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 
-use Minifixio\onevsone\OneVsOne;
-use Minifixio\onevsone\ArenaManager;
+use HiggsInc\onevsone\OneVsOne;
+use HiggsInc\onevsone\ArenaManager;
 
 class JoinCommand extends Command implements PluginIdentifiableCommand{
 

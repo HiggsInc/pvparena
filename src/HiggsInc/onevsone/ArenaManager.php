@@ -1,11 +1,11 @@
 <?php
 
-namespace Minifixio\onevsone;
+namespace HiggsInc\onevsone;
 
-use Minifixio\onevsone\model\Arena;
-use Minifixio\onevsone\utils\PluginUtils;
-use Minifixio\onevsone\model\SignRefreshTask;
-use Minifixio\onevsone\OneVsOne;
+use HiggsInc\onevsone\model\Arena;
+use HiggsInc\onevsone\utils\PluginUtils;
+use HiggsInc\onevsone\model\SignRefreshTask;
+use HiggsInc\onevsone\OneVsOne;
 
 use pocketmine\Server;
 use pocketmine\Player;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Minifixio\onevsone\model;
+namespace HiggsInc\onevsone\model;
 
 use pocketmine\scheduler\PluginTask;
 use pocketmine\utils\TextFormat;

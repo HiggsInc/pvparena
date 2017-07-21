@@ -1,8 +1,8 @@
 <?php
 
-namespace Minifixio\onevsone;
+namespace HiggsInc\onevsone;
 
-use Minifixio\onevsone\utils\PluginUtils;
+use HiggsInc\onevsone\utils\PluginUtils;
 
 use pocketmine\tile\Tile;
 use pocketmine\item\Item;
