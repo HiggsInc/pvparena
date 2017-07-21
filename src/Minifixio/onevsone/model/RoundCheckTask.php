@@ -10,7 +10,7 @@ class RoundCheckTask extends PluginTask{
 	
 	public $arena;
 	
-	public function onRun($currentTick){
+	public function onRun(int $currentTick){
 		$this->arena->onRoundEnd();
 	}
 	

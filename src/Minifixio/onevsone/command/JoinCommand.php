@@ -7,6 +7,7 @@ use pocketmine\command\PluginIdentifiableCommand;
 use pocketmine\command\CommandSender;
 use pocketmine\level\Level;
 use pocketmine\Player;
+use pocketmine\plugin\Plugin;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 
@@ -27,11 +28,11 @@ class JoinCommand extends Command implements PluginIdentifiableCommand{
 		$this->arenaManager = $arenaManager;
 	}
 
-	public function getPlugin(){
+	public function getPlugin() : Plugin{
 		return $this->plugin;
 	}
 
-	public function execute(CommandSender $sender, $label, array $params){
+	public function execute(CommandSender $sender, string $label, array $params) : bool{
 		if(!$this->plugin->isEnabled()){
 			return false;
 		}

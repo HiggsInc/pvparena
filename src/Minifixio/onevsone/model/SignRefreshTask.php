@@ -11,7 +11,7 @@ class SignRefreshTask extends PluginTask{
 	/** var ArenaManager **/
 	public $arenaManager;
 	
-	public function onRun($currentTick){
+	public function onRun(int $currentTick){
 		$this->arenaManager->refreshSigns();
 	}
 	

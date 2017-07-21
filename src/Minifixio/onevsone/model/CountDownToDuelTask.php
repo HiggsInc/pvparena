@@ -20,7 +20,7 @@ class CountDownToDuelTask extends PluginTask{
 		$this->countdownValue = CountDownToDuelTask::COUNTDOWN_DURATION;
 	}
 	
-	public function onRun($currentTick){
+	public function onRun(int $currentTick){
 		if(count($this->arena->players) < 2){
 			$this->arena->abortDuel();
 		}
